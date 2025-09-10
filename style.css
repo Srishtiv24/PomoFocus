@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background:linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height:100vh;
+}
+
+h1
+{
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 498;
+}
+
+h4
+{
+    font-weight: 400;
+}
+#timer
+{
+    font-weight: 500;
+    font-size: 6rem;
+}
+.tabs
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap:1rem;
+    
+}
+.tab
+{ white-space: nowrap;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+    flex-shrink: 0;            /* Keeps tab width stable */
+}
+    
+#btns
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    
+}
+button
+{
+    background-color: transparent;
+    border:2px solid white;
+    padding: 10px 20px;
+  cursor: pointer;
+  color: white;                  /* Keeps the text visible */
+  font-family: 'Poppins', sans-serif; /* Applies your custom font */
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* subtle highlight */
+    transform: scale(1.03);                    /* Slight zoom */
+
+  }
+
+  .tab:hover {
+    background-color:transparent; /* Soft glow */
+    transform: scale(1.05);                    /* Slight zoom */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Subtle shadow */
+    cursor: pointer;
+  }
+
+  .tab.active {
+    background-color:transparent;
+    font-weight: 500;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+  }
+  
+#container
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.8rem;    
+    background-color:rgb(255,255,255,0.18);
+    width: 87%;              /* Takes up most of the screen on small devices */
+  max-width: 500px;        /* Prevents it from stretching too wide on desktops */
+}
+

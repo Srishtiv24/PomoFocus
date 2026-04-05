@@ -10,15 +10,15 @@ PomoFocus is a browser-based Pomodoro timer designed to help users manage their 
 - Real-time countdown display
 - Responsive layout for desktop and mobile devices
 
-## Link :https://srishtiv24.github.io/PomoFocus/
-
 ## Technologies Used
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
+- 
+## Link :https://srishtiv24.github.io/PomoFocus/
+![Alt text](./Screenshot 2025-09-10 190644.jpg)
 
 ## Future Improvements
 - Persistent timer using localStorage to survive page reloads
 - Desktop notifications using the Web Notifications API
-
 

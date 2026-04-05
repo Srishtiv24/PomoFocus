@@ -16,7 +16,8 @@ PomoFocus is a browser-based Pomodoro timer designed to help users manage their 
 - JavaScript (Vanilla)
 - 
 ## Link :https://srishtiv24.github.io/PomoFocus/
-![Alt text](./Screenshot 2025-09-10 190644.jpg)
+
+![preview](./Screenshot 2025-09-10 190644.jpg)
 
 ## Future Improvements
 - Persistent timer using localStorage to survive page reloads
